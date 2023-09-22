@@ -47,20 +47,21 @@
 }
 h1{
     font-size:80px;
-    color: #24273a;
+    color: #3DB0A1;
     font-weight: bold;
     font-family: 'Berlin Sans FB Demi', sans-serif;
     text-align: center;
     padding-bottom:0.5em;
+    text-shadow: 5px 5px #0b6168; 
 
 }
 h2{
     font-size: 60px;
-    color: #24273a;
+    color: #3DB0A1;
     font-weight: bold;
     font-family: 'Berlin Sans FB Demi', sans-serif;
     text-align: center;
-
+    text-shadow: 5px 5px #0b6168; 
 
 }
 .home img{

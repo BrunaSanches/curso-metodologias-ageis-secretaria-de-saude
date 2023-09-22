@@ -29,7 +29,7 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    background-color:#24273a; 
+
     flex-direction: column;
 }
 .div3 img{
@@ -39,7 +39,7 @@
 
 h1{
     font-size: 50px;
-    color: aliceblue;
+    color: #404040;
     font-weight: bold;
     font-family: 'Berlin Sans FB Demi', sans-serif;
     text-align: center;
