@@ -76,7 +76,7 @@ h1{
     height: 10vh;
     position: fixed;
     display: flex;
-    justify-content:flex-end;
+    justify-content:flex-start;
     align-items: center;
 }
 .logo img{
@@ -97,10 +97,11 @@ a{
     padding: 10px;
     font-size: 35px;
     text-decoration: none;
+    border: 2px solid  #0b6168;
 }
 a:hover{
-    border-color: #3DB0A1;
-    background-color: #3DB0A1;
+    border-color: #0b6168;
+    background-color: #0b6168;
 }
 
 
