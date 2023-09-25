@@ -1,0 +1,96 @@
+@import url('https://fonts.cdnfonts.com/css/berlin-sans-fb-demi');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+.div2, .div3{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    flex-direction: column;
+}
+.div3 img{
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    font-size: 50px;
+    color: #404040;
+    font-weight: bold;
+    font-family: 'Berlin Sans FB Demi', sans-serif;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+.botoes{
+    width: 98%;
+    height: 10vh;
+    position: fixed;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.botoes img{
+    width: 100%;
+    height: 8vh;
+}
+#girou{
+    rotate: 180deg;
+}
+em{
+    text-decoration: underline; 
+}
+
+@media screen and (max-width:768px) {
+    .home{
+        flex-direction: column;
+        justify-content:flex-end;
+        align-items: flex-end;
+    }
+    .div2, .div3{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    h1{
+        font-size:33px;
+    }
+    .botoes img{
+        width: 100%;
+        height: 5vh;
+    }
+    .div3 img{
+        width: 100%;
+        height: 50vh;
+    }
+}
+@media screen and (max-width:996px) {
+    h1{
+        font-size:40px;
+    }
+}
