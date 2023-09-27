@@ -1,0 +1,124 @@
+@import url('https://fonts.cdnfonts.com/css/nunito');
+
+@import url('https://fonts.cdnfonts.com/css/berlin-sans-fb-demi');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+   width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+
+
+.div2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items:center;
+    position: absolute;
+}
+.div3{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content:center;
+    position: absolute;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items:center;
+    
+}
+.div4{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content:center;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size:75px;
+    color: #3DB0A1;
+    font-weight: bold;
+    font-family: 'Berlin Sans FB Demi', sans-serif;
+    text-align: center;
+    padding-bottom: 0.5em;
+    text-shadow: 5px 5px #0b6168; 
+
+}
+
+.home img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.div3 img{
+    width:100%;
+    height: 80vh;
+    object-fit: cover;
+    filter: blur(10px);
+
+
+}
+
+
+.logo{
+    width: 95%;
+    height: 10vh;
+    position: fixed;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.logo img{
+    width: 10%;
+    height: auto;
+}
+#girou{
+    rotate: 180deg;
+}
+
+a{
+    font-family: 'Berlin Sans FB Demi', sans-serif;
+    text-align: center;
+    color: white;
+    border: 2px solid #3DB0A1;
+    background-color: #3DB0A1;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 35px;
+    text-decoration: none;
+    border: 2px solid  #0b6168;
+}
+a:hover{
+    border-color: #0b6168;
+    background-color: #0b6168;
+}
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+     }
+ }
+
+@media screen and (max-width:768px) {
+    h1{
+        font-size:50px;
+    }
+    a{
+        font-size: 25px;
+    }
+}

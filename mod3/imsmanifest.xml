@@ -7,12 +7,12 @@
 	<metadata/>
 	<organizations default="contabil">
 	   <organization identifier="contabil">
-	   <title>Gestão de Almoxarifado e Patrimônio</title>
+	   <title>Metodologias Ágeis</title>
 			<item identifier="MOD_1" isvisible="true">
-				<title>Gestão de Almoxarifado e Patrimônio</title>
+				<title>Metodologias Ágeis</title>
 
 				<item identifier="MOD_1_SCO_1" identifierref="RES_1" isvisible="true">
-					<title>Módulo III</title>
+					<title>Módulo II</title>
 				</item>
 
 				
@@ -35,8 +35,8 @@
 			<file href="src/includes/conteudo.js"/>
 			
 		</resource>
-		<resource identifier="RES_1" type="webcontent" adlcp:scormtype="sco" href="src/pagina30.html">
-		   <file href="src/pagina30.html"/>
+		<resource identifier="RES_1" type="webcontent" adlcp:scormtype="sco" href="src/pagina5.html">
+		   <file href="src/pagina5.html"/>
 		   <dependency identifierref="INC"/>
 		</resource>
 
