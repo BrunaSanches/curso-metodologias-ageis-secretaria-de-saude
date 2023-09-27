@@ -40,7 +40,7 @@
 }
 .div4{
     width: 80%;
-    height: 50vh;
+    height:60vh;
     display: flex;
     justify-content:space-evenly;
     position: absolute;
@@ -52,8 +52,11 @@ li{
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
     text-align: left;
-    color: #44485D;
+    color:  #404040;
     font-weight: 700;
+}
+ul{
+    padding-left: 2em;
 }
 
 .home img{
@@ -64,7 +67,7 @@ li{
 }
 h2{
     font-size:40px;
-    color: #24273a;
+    color:  #404040;
     font-weight: bold;
     font-family: 'Berlin Sans FB Demi', sans-serif;
     text-align: center;
