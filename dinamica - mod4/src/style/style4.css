@@ -16,9 +16,9 @@
     width: 50%;
     height: 100vh;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items: center;
-    background-color:#3DB0A1;
+    background-color:#0B6168;
     flex-direction: column;
 }
 .div2 img{
