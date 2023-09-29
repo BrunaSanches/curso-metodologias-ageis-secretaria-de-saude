@@ -51,14 +51,15 @@
 
 
 iframe{
-    width:90%;
+    width:95%;
     height: 85vh;
-    object-fit: cover;
+  
+
 }
 
 .botoes{
     width: 98%;
-    height: 10vh;
+    height: 8vh;
     position: fixed;
     display: flex;
     justify-content:space-between;
